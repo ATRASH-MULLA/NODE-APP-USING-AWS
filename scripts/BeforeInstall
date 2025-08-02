@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Stopping node server ig running"
+
+pkill node || echo "No node process found"
